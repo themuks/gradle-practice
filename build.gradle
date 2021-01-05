@@ -2,7 +2,7 @@ plugins {
     id 'java-library'
 }
 
-group 'utils'
+group 'com.kuntsevich'
 version '1.3.5'
 
 repositories {
