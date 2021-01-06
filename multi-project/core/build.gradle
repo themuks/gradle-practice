@@ -1,0 +1,13 @@
+plugins {
+    id 'java'
+}
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'com.kuntsevich:utils:1.3.5'
+    implementation group: 'org.apache.commons', name: 'commons-lang3', version: '3.10'
+}
